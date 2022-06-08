@@ -22,7 +22,7 @@ body {
     line-height:1.5;
     background: url(images/bg-pattern-top.svg) , url(images/bg-pattern-bottom.svg), var(--Darkcyan) ;
     background-repeat:no-repeat;
-    background-position: right 52vw bottom 35vh, left 47vw top 48vh;
+    background-position: right 52vw bottom 35vh, left 47vw top 50vh;
     min-height: 100vh;
     font-family:  'Kumbh Sans', sans-serif;
 }
@@ -37,10 +37,6 @@ body {
     box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2);
 }
 
-.card-header {
-    background-attachment: fixed;
-}
-
 .card-body {
     margin:1.3rem;
 }
@@ -53,16 +49,15 @@ body {
 
 .card-title {
     margin-top:0.7rem;
+    font-size:1.5rem;
 }
 
 .name {
-    font-size:1.5rem;
     color: var(--Verydarkdesaturatedblue);
 }
 
 .age {
     margin-left:0.3rem;
-    font-size:1.5rem;
     color: var(--Darkgrayishblue);
     font-weight:500;
 }
@@ -88,7 +83,7 @@ ul {
     justify-content: space-around;
 }
 
-li h2 {
+li h2{
     color: var(--Verydarkdesaturatedblue);
 }
 
